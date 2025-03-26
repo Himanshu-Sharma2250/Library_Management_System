@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigator">
+        <div class="name">
+            <h2>Online Library</h2>
+        </div>
+
+        <div class="search-book">
+            <input type="text" placeholder="Search book by title or author" id="input-search-book">
+            <!-- <button id="search-book-btn">Search</button> -->
+        </div>
+
+        <div class="nav-btns">
+            <button class="alpha-sort-btn">Sort: A-Z</button>
+            <button class="date-sort-btn">Sort: Date</button>
+            <button class="list-grid-btn">List</button>
+            <button id="theme-btn">
+                <img src="./asset/sun-2-svgrepo-com (1).svg" alt="" id="theme-btn-image">
+            </button> 
+        </div>
+    </nav>
+
+    <main id="books-collection">
+        <!-- all the books in list or grid -->
+    </main>
+
+    <footer class="pagination">
+        <button id="prev-btn" disabled>prev</button>
+        <p class="pageNumber">1 / 10</p>
+        <button id="next-btn">next</button>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
