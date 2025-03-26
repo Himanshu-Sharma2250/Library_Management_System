@@ -10,12 +10,12 @@ This is a dynamic web application that allows users to browse, search, and explo
 ## Screenshots 
 
 ### Desktop :
-![image1](image.png)
+![image1](./asset/image.png)
 
-![image2](image-1.png)
+![image2](./asset/image-1.png)
 
 ### Mobile :
-![image3](image-2.png)
+![image3](./asset/image-2.png)
 
 ## 🌟 Features
 
